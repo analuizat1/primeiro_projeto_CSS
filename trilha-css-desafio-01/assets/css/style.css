@@ -1,0 +1,154 @@
+@import url('reset.css');
+
+body {
+  background-color: white;
+}
+
+h1 {
+    color: rgb(18, 18, 152) ;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+#course-content {
+  margin: 0px;
+  height: 550px;
+  width: 1500px;
+  background-image: url(https://scontent.frec7-1.fna.fbcdn.net/v/t31.18172-8/12469596_1096891043684423_4240919734969103979_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeE7uKSbaCpA8VD_0wawWOoZgjz2RYE_bTKCPPZFgT9tMhp9gPnvGxZFQE80kGyx0J7KRQ8D4n5D-VKuXsl2K6iz&_nc_ohc=J_E98HwDsW0AX_4P7IX&_nc_ht=scontent.frec7-1.fna&oh=00_AfA2nqmdO5KLHnz-o76ssVkvOqD94PhiieLeXY9txFmCaw&oe=6394E570);
+  background-size: cover;
+}
+
+#course-content h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    padding-top: 90px;
+}
+
+#course-content p {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.modules-list .module {
+  color: rgb(98, 77, 11);
+  width: 500px;
+  height: 60px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: gainsboro;
+  border-radius: 20px;
+  border: 6px; 
+  border-color: blue;
+  margin: 0 auto 20px;
+  padding-top: 18px;
+  text-align: center;
+  font-size: large; 
+  font-weight: bolder;
+
+}
+
+p {
+    font-size: 15px;
+    font-style: bold;
+    font-weight: bold;
+    color: black;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(186, 206, 217, 0.6), rgba(49, 168, 221, .2)), url('https://scontent.frec7-1.fna.fbcdn.net/v/t31.18172-8/12491827_1096890073684520_3463087593281324468_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeHTTPYeER3dDeb211y73UIvKHbTefo1kgUodtN5-jWSBTotYiZRO8BehFpxitF2eIdL4EJUgKQzooNeH9_1vyEE&_nc_ohc=dpIxB9CYuKkAX_VNokz&_nc_ht=scontent.frec7-1.fna&oh=00_AfAyISkOyyqZ_YXnfn5QpH0TiDwk3gvYPatSQ_Z4niMXuA&oe=6394BB72');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 1500px;
+    padding-top: 5px;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    margin-bottom: -20px;
+
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, .4);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .banner p {
+    font-size: 1.50rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 16px 0 24px;
+    text-align: center;
+  }
+
+  button {
+    background-color: rgb(251, 252, 252);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: medium;
+    border: 1px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+  }
+
+  #transform-world {
+    background-image: url(https://scontent.frec7-1.fna.fbcdn.net/v/t1.6435-9/67184452_3035099379863570_6656178871815110656_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFq5cqQAjr0KwvjVHkRJCkvhr0awfP4i5eGvRrB8_iLl8ZCPlNMvUm-L_I9G9Xb9-D9-sVT4c_BEsMpj65ehY7b&_nc_ohc=Ga8SO0_ORoEAX8dlM0o&_nc_ht=scontent.frec7-1.fna&oh=00_AfBeLrdyImvO0Xb2op8-THzh27zw3lwkFH8I-DV9vw61Sg&oe=6394E687);
+    background-size: cover;
+    width: 1500px;
+    height: 550px;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+  }
+
+  #transform-world p {
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-indent: -120px;
+    text-shadow: 3px 2px #f2d39f
+  }
+
+  #professional-challenges {
+    background-size: cover;
+    border-top: -10px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    text-align: center;
+
+  }
+
+  #professional-challenges h2 {
+    color: rgb(9, 86, 27);
+    text-shadow: 2px 1px rgb(207, 203, 203);
+
+  }
+
+  footer {
+    width: 1500px;
+    height: 90px;
+    background-color: darkolivegreen;
+  }
+
+  footer p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: none;
+  }
